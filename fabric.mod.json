@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wand",
+  "version": "${version}",
+  "name": "wand",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/wand/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.zz.wand.client.WandClient"
+    ],
+    "main": [
+      "net.zz.wand.Wand"
+    ]
+  },
+  "mixins": [
+    "wand.mixins.json",
+    {
+      "config": "wand.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "item.wand.accelerationwand": "Acceleration Wand",
+  "key.wand.cycle_mode": "Cycle Wand Mode",
+  "category.wand": "Wand Controls",
+  "message.wand.mode_switch": "Switched to %s mode!"
+}
