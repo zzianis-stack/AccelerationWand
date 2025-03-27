@@ -1,6 +1,9 @@
-Acceleration Wand Mod
+**Acceleration Wand Mod**
+
 Version: 1.0
+
 Minecraft Version: 1.21
+
 Mod Loader: Fabric
 
 The Acceleration Wand mod adds a powerful tool to Minecraft that allows you to accelerate the tick speed of blocks. Perfect for speeding up crops, machines, and other random ticking blocks in your world, the wand offers multiple modes for various gameplay needs.
